@@ -13,6 +13,8 @@
 		5AF5DC5E1A9042F000BB193D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF5DC5D1A9042F000BB193D /* Images.xcassets */; };
 		5AF5DC611A9042F000BB193D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF5DC5F1A9042F000BB193D /* Main.storyboard */; };
 		5AF5DC6D1A9042F000BB193D /* Pavanih_Homework3_TodoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5DC6C1A9042F000BB193D /* Pavanih_Homework3_TodoAppTests.m */; };
+		5AF5DC781A90ACB000BB193D /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5DC771A90ACB000BB193D /* ToDoItem.m */; };
+		5AF5DC7B1A90ACC600BB193D /* ToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5DC7A1A90ACC600BB193D /* ToDoList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		5AF5DC661A9042F000BB193D /* Pavanih_Homework3_TodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pavanih_Homework3_TodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF5DC6B1A9042F000BB193D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AF5DC6C1A9042F000BB193D /* Pavanih_Homework3_TodoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pavanih_Homework3_TodoAppTests.m; sourceTree = "<group>"; };
+		5AF5DC761A90ACB000BB193D /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		5AF5DC771A90ACB000BB193D /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		5AF5DC791A90ACC600BB193D /* ToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoList.h; sourceTree = "<group>"; };
+		5AF5DC7A1A90ACC600BB193D /* ToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				5AF5DC5B1A9042F000BB193D /* ViewController.m */,
 				5AF5DC5D1A9042F000BB193D /* Images.xcassets */,
 				5AF5DC5F1A9042F000BB193D /* Main.storyboard */,
+				5AF5DC761A90ACB000BB193D /* ToDoItem.h */,
+				5AF5DC771A90ACB000BB193D /* ToDoItem.m */,
+				5AF5DC791A90ACC600BB193D /* ToDoList.h */,
+				5AF5DC7A1A90ACC600BB193D /* ToDoList.m */,
 				5AF5DC531A9042F000BB193D /* Supporting Files */,
 			);
 			path = Pavanih_Homework3_TodoApp;
@@ -216,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AF5DC5C1A9042F000BB193D /* ViewController.m in Sources */,
+				5AF5DC7B1A90ACC600BB193D /* ToDoList.m in Sources */,
 				5AF5DC591A9042F000BB193D /* main.m in Sources */,
+				5AF5DC781A90ACB000BB193D /* ToDoItem.m in Sources */,
 				5AF5DC571A9042F000BB193D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +416,7 @@
 				5AF5DC721A9042F000BB193D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AF5DC731A9042F000BB193D /* Build configuration list for PBXNativeTarget "Pavanih_Homework3_TodoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +425,7 @@
 				5AF5DC751A9042F000BB193D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
